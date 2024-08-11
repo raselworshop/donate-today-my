@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate Today</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="bg-black text-white">
     <!-- nav section start here -->
     <nav class="w-full flex justify-end items-center my-0 mx-auto italic">
-        <ul class=" bg-slate-900 drop-shadow flex p-8 justify-around items-center gap-3 list-none hover:transition-transform">
+        <ul class=" bg-slate-900 drop-shadow flex p-8 justify-around items-center gap-3 list-none hover:transition-transform sticky top-2 right-1">
             <li><a class="font-serif text-xl font-semibold no-underline tracking-normal hover:font-bold hover:font-sans hover:text-4xl hover:transition-transform" href="#">HOME</a></li>
             <li><a class="font-serif text-xl font-semibold no-underline tracking-normal hover:font-bold hover:font-sans hover:text-4xl hover:transition-transform" href="#">DONATE</a></li>
             <li><a class="font-serif text-xl font-semibold no-underline tracking-normal hover:font-bold hover:font-sans hover:text-4xl hover:transition-transform" href="#">OUR PLAN</a></li>
